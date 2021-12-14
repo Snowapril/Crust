@@ -1,0 +1,4 @@
+fn test() -> int {
+    let sum : int = 1 + 4;
+    return 0;
+}
