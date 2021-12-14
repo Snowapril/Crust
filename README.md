@@ -1,7 +1,7 @@
 # Crust
 
 My own language compiler for PNU Compiler lecture term-project.
-I combined some c and rust features to make a language.
+I combined some c++ and rust features to make a language.
 
 ## Build
 ```bash
@@ -16,7 +16,9 @@ make
 
 ## How to use
 ```bash
-./crust < sample_code.crust
+./crust < examples/sample.crust
+gcc output.cpp -o output
+./output
 ```
 
 ## License
